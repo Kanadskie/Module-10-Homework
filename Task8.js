@@ -1,4 +1,4 @@
-let vehicle = new Map([
+let vehicle = new Map([ // 1. Задаем произвольный массив
   
     ['type', 'car'],
     ['color', 'red'],
@@ -8,6 +8,6 @@ let vehicle = new Map([
     
   ]);
   
-  vehicle.forEach(function(value, key) {
-    console.log(`Ключ - ${key}, Значение - ${value}`);
+  vehicle.forEach(function(value, key) { // 2. Перебираем элементы массива с помощью метода .forEach передавая в качестве аргумента функцию callback c параментами value, key
+    console.log(`Ключ - ${key}, Значение - ${value}`); // 3. Выводим в консоль значения в виде «Ключ — Х, значение — Y» с помощью шаблонных строк
   });

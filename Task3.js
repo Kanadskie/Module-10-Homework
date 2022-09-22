@@ -1,5 +1,5 @@
 let oneStr = 'JavaScript';
 
-let reverseStr = oneStr.split('').reverse().join('');
+let reverseStr = oneStr.split('').reverse().join(''); // 1. Используем метод split() для создания посимвольного массива из строки, используем метод reverse() для зеркального отображения символов в массиве и метод join для преобразования массива в строку
 
-console.log(reverseStr);
+console.log(reverseStr); // 2. Выводим полученный результат в консоль

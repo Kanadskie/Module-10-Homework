@@ -1,20 +1,20 @@
 let x;
 
-x = 56; // Example
+x = 56; // Данные для примера
 
-if (typeof x === 'number') {
+if (typeof x === 'number') { // 1. Если тип данных число выводим в консоль 'x - число'
 
   console.log('x - число')
   
-} else if (typeof x === 'string') {
+} else if (typeof x === 'string') { // 2. Если тип данных строка выводим в консоль 'x - строка'
   
     console.log('x - строка')
     
-} else if (typeof x === 'boolean') {
+} else if (typeof x === 'boolean') { // 3. Если тип данных булев выводим в консоль 'x - булев'
   
     console.log('x - булев')
     
 } else {
   
-    console.log('Тип x не определён')
+    console.log('Тип x не определён') // 4. Иначе 'Тип x не определён'
 }

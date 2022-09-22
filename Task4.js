@@ -1,7 +1,7 @@
-let randomNum = getRandomInt(0, 100);
-
-function getRandomInt(min, max) {
+function getRandomInt(min, max) { // 1. Объявляем функцию которая принимает два аргумента - диапазон чисел min max и возвращает случайное число из этого диапазона
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-console.log(randomNum);
+let randomNum = getRandomInt(0, 100); // 2. Объявляем переменную, в которой будет хранится результат выполнения функции с заданными параметрами
+
+console.log(randomNum); // 3. Выводим результат в консоль
